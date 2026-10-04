@@ -96,7 +96,7 @@ export default function Tutors() {
 
         <div className="row">
           <div className="col-12 col-md-4" style={{ marginBottom: 15 }}>
-            <input type="email" name="email" placeholder="Email" onChange={handleChange} style={{ width: '100%', padding: 10, border: '1px solid #cbd5e1', borderRadius: 6 }} />
+            <input type="email" name="email" placeholder="Email" required onChange={handleChange} style={{ width: '100%', padding: 10, border: '1px solid #cbd5e1', borderRadius: 6 }} />
           </div>
           <div className="col-12 col-md-4" style={{ marginBottom: 15 }}>
             <input type="text" name="city" placeholder="City" required onChange={handleChange} style={{ width: '100%', padding: 10, border: '1px solid #cbd5e1', borderRadius: 6 }} />

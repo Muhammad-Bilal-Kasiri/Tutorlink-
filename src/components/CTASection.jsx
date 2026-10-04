@@ -8,33 +8,22 @@ export default function CTASection() {
         <p className="section-subtitle">
           Whether you're a teacher looking for tuitions or a parent searching for the perfect tutor — we've got you covered.
         </p>
-        <div style={{ marginTop: 30 }}>
-          <Link
-            to="/parents"
-            className="btn-orange"
-            style={{
-              padding: '12px 28px',
-              fontSize: '1.05rem',
-              marginRight: 10,
-              textDecoration: 'none',
-              display: 'inline-block'
-            }}
-          >
-            I Need a Tutor
-          </Link>
+
+        <div className="cta-buttons">
           <Link
             to="/tutors"
             className="btn-outline-navy"
-            style={{
-              padding: '12px 28px',
-              fontSize: '1.05rem',
-              textDecoration: 'none',
-              display: 'inline-block'
-            }}
+            style={{ textDecoration: 'none' }}
           >
             I'm a Teacher
           </Link>
-          
+          <Link
+            to="/parents"
+            className="btn-orange"
+            style={{ textDecoration: 'none' }}
+          >
+            I Need a Tutor
+          </Link>
         </div>
       </div>
     </section>
