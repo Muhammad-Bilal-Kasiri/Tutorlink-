@@ -26,7 +26,7 @@ export default function Contact() {
           <div className="step-card" style={{ textAlign: 'center', padding: 30 }}>
             <div style={{ fontSize: 40 }}>📧</div>
             <h4 style={{ marginTop: 15 }}>Email</h4>
-            <p style={{ color: '#64748b', fontSize: 14 }}>info@tutorlink.pk</p>
+            <p style={{ color: '#64748b', fontSize: 14 }}>tutorlink.edu.pk@gmail.com</p>
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=tutorlink.edu.pk@gmail.com&su=TutorLink%20Inquiry"
               className="btn-outline-navy"
