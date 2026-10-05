@@ -1,7 +1,7 @@
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/923001234567?text=Hello%20TutorLink%2C%20I%20am%20interested%20in%20finding%20a%20home%20tutor."
+      href="https://wa.me/+923242106727?text=Hello%20TutorLink%2C%20I%20am%20interested%20in%20finding%20a%20home%20tutor."
       target="_blank"
       rel="noreferrer"
       className="whatsapp-btn"
